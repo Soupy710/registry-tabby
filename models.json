@@ -1,4 +1,11 @@
 [
+    {
+    "name": "DeepseekCoder-1.3B-Typescript",
+    "prompt_template": "<fim_prefix>{prefix}<fim_suffix>{suffix}<fim_middle>",
+    "urls": [
+      "https://huggingface.co/keriati/deepseek-coder-1.3b-typescript-GGUF/resolve/main/deepseek-coder-1.3b-typescript-Q8_0.gguf"
+    ]
+  },
   {
     "name": "StarCoder-1B",
     "provider_url": "https://huggingface.co/bigcode/starcoderbase-1b",
