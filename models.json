@@ -2,12 +2,13 @@
     {
     "name": "DeepseekCoder-1.3B-Typescript",
     "license_name": "Deepseek License",
+    "license_url": "https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL",
     "provider_url": "https://huggingface.co/CodeGPTPlus/deepseek-coder-1.3b-typescript",
     "prompt_template": "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>",
     "urls": [
       "https://huggingface.co/keriati/deepseek-coder-1.3b-typescript-GGUF/resolve/main/deepseek-coder-1.3b-typescript-Q8_0.gguf"
     ],
-        "sha256": "9a9b75fe36f85b810bbd877166de1c49c70bdf04de5cadcc629cb18fa0ef7d53"
+    "sha256": "9a9b75fe36f85b810bbd877166de1c49c70bdf04de5cadcc629cb18fa0ef7d53"
   },
   {
     "name": "StarCoder-1B",
