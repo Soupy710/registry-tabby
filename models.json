@@ -10,6 +10,17 @@
     ],
     "sha256": "9a9b75fe36f85b810bbd877166de1c49c70bdf04de5cadcc629cb18fa0ef7d53"
   },
+        {
+    "name": "StableCode-3B",
+    "license_name": "other",
+    "license_url": "https://huggingface.co/TheBloke/stable-code-3b-GGUF/blob/main/README.md",
+    "provider_url": "https://huggingface.co/TheBloke/stable-code-3b-GGUF",
+    "prompt_template": "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>",
+    "urls": [
+      "https://huggingface.co/TheBloke/stable-code-3b-GGUF/raw/main/stable-code-3b.Q6_K.gguf"
+    ],
+    "sha256": "ed10b6f9d27acc765f51bde6d02a585eaa5c559e545853eb531bb37cc1bca3cf"
+  },
   {
     "name": "StarCoder-1B",
     "provider_url": "https://huggingface.co/bigcode/starcoderbase-1b",
