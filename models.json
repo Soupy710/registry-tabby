@@ -12,8 +12,8 @@
   },
         {
     "name": "StableCode-3B",
-    "license_name": "other",
-    "license_url": "https://huggingface.co/TheBloke/stable-code-3b-GGUF/blob/main/README.md",
+    "license_name": "Deepseek License",
+    "license_url": "https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL",
     "provider_url": "https://huggingface.co/TheBloke/stable-code-3b-GGUF",
     "prompt_template": "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>",
     "urls": [
