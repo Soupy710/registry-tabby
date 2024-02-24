@@ -17,7 +17,7 @@
     "provider_url": "https://huggingface.co/TheBloke/stable-code-3b-GGUF",
     "prompt_template": "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>",
     "urls": [
-      "https://huggingface.co/TheBloke/stable-code-3b-GGUF/raw/main/stable-code-3b.Q6_K.gguf"
+      "https://huggingface.co/TheBloke/stable-code-3b-GGUF/resolve/main/stable-code-3b.Q6_K.gguf"
     ],
     "sha256": "ed10b6f9d27acc765f51bde6d02a585eaa5c559e545853eb531bb37cc1bca3cf"
   },
