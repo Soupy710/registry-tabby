@@ -87,7 +87,7 @@
     "provider_url": "https://huggingface.co/TheBloke/CodeLlama-13B-Instruct-GGUF",
     "license_name": "Llama 2",
     "license_url": "https://github.com/facebookresearch/llama/blob/main/LICENSE",
-    "chat_template": "Write code to solve the following coding problem that obeys the constraints and passes the example test cases. Please wrap your code answer using ```:"\n{% for message in messages %}{% if (message['role'] == 'user') != (loop.index0 % 2 == 0) %}{{ raise_exception('Conversation roles must alternate user/assistant/user/assistant/...') }}{% endif %}{% if message['role'] == 'user' %}{{ '### Instruction:\n' + message['content'] + '\n### Response:\n' }}{% elif message['role'] == 'assistant' %}{{ message['content'] + '\n' }}",
+    "chat_template": "[INST] Write code to solve the following coding problem that obeys the constraints and passes the example test cases. Please wrap your code answer using ```:{prompt} [/INST]",
     "urls": [
       "https://huggingface.co/TheBloke/CodeLlama-13B-Instruct-GGUF/resolve/main/codellama-13b-instruct.Q5_K_M.gguf",
     "https://modelscope.cn/api/v1/models/TabbyML/CodeLlama-13B/repo?FilePath=ggml/q5_0.v2.gguf"
