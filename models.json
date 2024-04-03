@@ -76,7 +76,7 @@
     "license_url": "https://github.com/facebookresearch/llama/blob/main/LICENSE",
     "prompt_template": "<PRE> {prefix} <SUF>{suffix} <MID>",
     "urls": [
-      "https://huggingface.co/TheBloke/CodeLlama-13B-GGUF/resolve/main/codellama-13b.Q5_K_M.gguf",
+      "https://huggingface.co/TheBloke/CodeLlama-13B-GGUF/resolve/main/codellama-13b.Q5_K_M.gguf"
     ],
     "sha256": "5b2eb7698081b8ed4528be77eb9b2c44ee44cdfb6c2690834e81edc2e5e39c7b"
   },
